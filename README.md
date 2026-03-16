@@ -350,14 +350,14 @@ Enable or disable modules via `idf.py menuconfig` under **Component config → E
 
 Full API documentation is available in the header files:
 
-- [`espio/audio_amp.h`](espio/include/espio/audio_amp.h) - Amplifier API
-- [`espio/audio_mic.h`](espio/include/espio/audio_mic.h) - Microphone API
-- [`espio/audio_duplex.h`](espio/include/espio/audio_duplex.h) - Full-duplex audio
-- [`espio/button.h`](espio/include/espio/button.h) - Button handling
-- [`espio/display.h`](espio/include/espio/display.h) - Display abstraction
-- [`espio/sd.h`](espio/include/espio/sd.h) - SD card filesystem
-- [`espio/err.h`](espio/include/espio/err.h) - Error handling
-- [`espio/log.h`](espio/include/espio/log.h) - Logging utilities
+- [`espio/audio_amp.h`](include/espio/audio_amp.h) - Amplifier API
+- [`espio/audio_mic.h`](include/espio/audio_mic.h) - Microphone API
+- [`espio/audio_duplex.h`](include/espio/audio_duplex.h) - Full-duplex audio
+- [`espio/button.h`](include/espio/button.h) - Button handling
+- [`espio/display.h`](include/espio/display.h) - Display abstraction
+- [`espio/sd.h`](include/espio/sd.h) - SD card filesystem
+- [`espio/err.h`](include/espio/err.h) - Error handling
+- [`espio/log.h`](include/espio/log.h) - Logging utilities
 
 ## Acknowledgments
 
