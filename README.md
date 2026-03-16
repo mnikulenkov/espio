@@ -20,7 +20,7 @@ Add to your project's `idf_component.yml`:
 ```yaml
 dependencies:
   espio:
-    git: https://github.com/mnikilenkov/espio.git
+    git: https://github.com/mnikulenkov/espio.git
     version: "*"
 ```
 
@@ -30,7 +30,7 @@ Clone into your project's `components/` directory:
 
 ```bash
 cd your-project/components
-git clone https://github.com/mnikilenkov/espio.git
+git clone https://github.com/mnikulenkov/espio.git
 ```
 
 ## Requirements
