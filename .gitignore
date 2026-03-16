@@ -106,3 +106,8 @@ Desktop.ini
 *.workspace
 *.suo
 *.sln.docstates
+
+# ===========================================
+# Dev test examples
+# ===========================================
+examples/dev/
