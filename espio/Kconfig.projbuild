@@ -1,0 +1,46 @@
+menu "Espio Library"
+
+    config ESPIO_ENABLE_AUDIO
+        bool "Enable Audio Support"
+        default y
+        help
+            Enable audio amplifier and microphone support.
+            This includes the audio duplex and I2S HAL layer.
+
+    config ESPIO_ENABLE_AUDIO_AMP
+        bool "Enable Audio Amplifier"
+        depends on ESPIO_ENABLE_AUDIO
+        default y
+        help
+            Enable audio amplifier output support.
+            Includes MAX98357A driver.
+
+    config ESPIO_ENABLE_AUDIO_MIC
+        bool "Enable Microphone"
+        depends on ESPIO_ENABLE_AUDIO
+        default y
+        help
+            Enable microphone input support.
+            Includes INMP441, ADC, PDM, and TDM drivers.
+
+    config ESPIO_ENABLE_BUTTON
+        bool "Enable Button Support"
+        default y
+        help
+            Enable button input support.
+            Includes GPIO and MCP23017 drivers.
+
+    config ESPIO_ENABLE_DISPLAY
+        bool "Enable Display Support"
+        default y
+        help
+            Enable display output support.
+            Includes ILI9341 driver.
+
+    config ESPIO_ENABLE_SD
+        bool "Enable SD Card Support"
+        default y
+        help
+            Enable SD card support via SPI.
+
+endmenu

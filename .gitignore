@@ -1,0 +1,108 @@
+# ===========================================
+# ESP-IDF Specific
+# ===========================================
+# Build directories
+build/
+build_*_*/
+
+# Configuration files (keep sdkconfig.defaults, ignore generated)
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF Component Manager
+managed_components/
+dependencies.lock
+
+# idf-ci build outputs
+build_summary_*.xml
+app_info_*.txt
+size_info_*.txt
+
+# pytest-embedded logs
+pytest_embedded_log/
+
+# ===========================================
+# Build Artifacts (C/C++)
+# ===========================================
+*.o
+*.a
+*.out
+*.elf
+*.bin
+*.map
+*.exe
+
+# ===========================================
+# CMake
+# ===========================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# ===========================================
+# Python
+# ===========================================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ===========================================
+# IDE and Editors
+# ===========================================
+# VSCode
+.vscode/
+
+# CLion/IntelliJ
+.idea/
+
+# Language Servers
+.clangd/
+.ccls-cache/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ===========================================
+# OS Generated
+# ===========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ===========================================
+# Temporary and Backup Files
+# ===========================================
+*.bak
+*.tmp
+*.log
+*.user
+*.workspace
+*.suo
+*.sln.docstates

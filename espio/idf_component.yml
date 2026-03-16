@@ -1,0 +1,32 @@
+version: "0.1.0"
+description: Espio - ESP32 Peripheral I/O Library
+url: https://github.com/yourusername/espio
+license: MIT
+tags:
+  - peripherals
+  - audio
+  - display
+  - button
+  - sdcard
+dependencies:
+  # ESP-IDF version constraint - espio is designed for ESP-IDF 5.x
+  # This will be updated when ESP-IDF 6.x compatibility is verified
+  idf:
+    version: ">=5.0,<6.0"
+  
+  # Display driver dependency
+  espressif/esp_lcd_ili9341:
+    version: "*"
+# Exclude examples and test projects from the package
+exclude:
+  - "examples/"
+  - "main/"
+  - "lib/"
+  - "plans/"
+  - ".vscode/"
+  - ".devcontainer/"
+  - "build/"
+  - "managed_components/"
+  - "dependencies.lock"
+  - "sdkconfig"
+  - "sdkconfig.defaults"
